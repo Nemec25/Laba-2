@@ -8,6 +8,10 @@ void korni1()
 	x1 = -b / 2 * a;
 	printf("\nx = %0.2g", x1);
 }
+void korni1_2()
+{
+
+}
 void diskriminant()
 {
 	d = (b * b) - 4 * a * c;
