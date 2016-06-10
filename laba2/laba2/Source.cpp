@@ -5,7 +5,8 @@
 float a, b, c, d, x1, x2;
 void korni1()
 {
-
+	x1 = -b / 2 * a;
+	printf("\nx = %0.2g", x1);
 }
 void diskriminant()
 {
