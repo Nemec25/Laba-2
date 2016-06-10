@@ -17,11 +17,15 @@ void korni1_2()
 }
 void diskriminant()
 {
-	d = (b * b) - 4 * a * c;
-	printf("\nДискриминант = %0.2g", d);
-	if (d == 0) korni1();
-	if (d > 0) korni1_2();
-	if (d < 0) printf("\nКорней нет");
+	if (a == 0 || b == 0) printf("Не квадратное уравнение");
+	else
+	{
+		d = (b * b) - 4 * a * c;
+		printf("\nДискриминант = %0.2g", d);
+		if (d == 0) korni1();
+		if (d > 0) korni1_2();
+		if (d < 0) printf("\nКорней нет");
+	}
 }
 int main()
 {
