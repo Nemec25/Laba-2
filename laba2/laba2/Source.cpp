@@ -23,7 +23,7 @@ void diskriminant()
 		printf("\nDiskriminant = %0.2g", d);
 		if (d == 0) korni1();
 		if (d > 0) korni1_2();
-		if (d < 0) printf("\nКорней нет");
+		if (d < 0) printf("\nKorney net");
 	}
 }
 int main()
