@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-#include<locale.h>
 #include<math.h>
 float a, b, c, d, x1, x2;
 void korni1()
@@ -17,11 +16,11 @@ void korni1_2()
 }
 void diskriminant()
 {
-	if (a == 0 || b == 0) printf("Не квадратное уравнение");
+	if (a == 0 || b == 0) printf("Ne kvadratnoe uravnenie");
 	else
 	{
 		d = (b * b) - 4 * a * c;
-		printf("\nДискриминант = %0.2g", d);
+		printf("\nDiskriminant = %0.2g", d);
 		if (d == 0) korni1();
 		if (d > 0) korni1_2();
 		if (d < 0) printf("\nКорней нет");
@@ -29,12 +28,11 @@ void diskriminant()
 }
 int main()
 {
-	setlocale(LC_ALL, "Rus");
-	printf("Введите a ");
+	printf("Vvedite a ");
 	scanf_s("%g", &a);
-	printf("\nВведите b ");
+	printf("\nVvedite b ");
 	scanf_s("%g", &b);
-	printf("\nВведите c ");
+	printf("\nVvedite c ");
 	scanf_s("%g", &c);
 	diskriminant();
 	_getch();
