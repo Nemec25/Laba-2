@@ -5,7 +5,8 @@
 float a, b, c, d, x1, x2;
 void diskriminant()
 {
-
+	d = (b * b) - 4 * a * c;
+	printf("\nДискриминант = %0.2g", d);
 }
 int main()
 {
