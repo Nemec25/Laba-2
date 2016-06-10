@@ -19,6 +19,9 @@ void diskriminant()
 {
 	d = (b * b) - 4 * a * c;
 	printf("\nДискриминант = %0.2g", d);
+	if (d == 0) korni1();
+	if (d > 0) korni1_2();
+	if (d < 0) printf("\nКорней нет");
 }
 int main()
 {
@@ -29,6 +32,7 @@ int main()
 	scanf_s("%g", &b);
 	printf("\nВведите c ");
 	scanf_s("%g", &c);
+	diskriminant();
 	_getch();
 	return 0;
 }
