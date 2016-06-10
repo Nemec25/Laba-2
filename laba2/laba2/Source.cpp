@@ -10,7 +10,10 @@ void korni1()
 }
 void korni1_2()
 {
-
+	x1 = (-b + sqrt(d)) / 2 * a;
+	x2 = (-b - sqrt(d)) / 2 * a;
+	printf("\nx1 = %0.2g", x1);
+	printf("\nx2 = %0.2g", x2);
 }
 void diskriminant()
 {
