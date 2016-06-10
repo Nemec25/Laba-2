@@ -3,6 +3,10 @@
 #include<locale.h>
 #include<math.h>
 float a, b, c, d, x1, x2;
+void korni1()
+{
+
+}
 void diskriminant()
 {
 	d = (b * b) - 4 * a * c;
