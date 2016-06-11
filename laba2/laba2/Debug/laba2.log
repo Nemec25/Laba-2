@@ -1,5 +1,0 @@
-﻿  Source.cpp
-d:\программирование\laba2\laba2\laba2\source.cpp(13): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-d:\программирование\laba2\laba2\laba2\source.cpp(14): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-  laba2.vcxproj -> D:\Программирование\laba2\laba2\Debug\laba2.exe
-  laba2.vcxproj -> D:\Программирование\laba2\laba2\Debug\laba2.pdb (Partial PDB)
